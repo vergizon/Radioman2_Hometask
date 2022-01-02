@@ -9,7 +9,6 @@
       <change afterPath="$PROJECT_DIR$/../SpotBugsHometask/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SpotBugsHometask/src/main/java/ru/netology/statistics/StatisticsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

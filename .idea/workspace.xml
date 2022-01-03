@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/../SpotBugsHometask/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SpotBugsHometask/src/main/java/ru/netology/statistics/StatisticsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,23 @@
       <command value="load maven changes" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.previousStation">
+  <component name="RunManager" selected="JUnit.RadioTest.increaseVolume">
+    <configuration name="RadioTest.increaseVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Radioman_hometask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.RadioTest" />
+      <option name="METHOD_NAME" value="increaseVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RadioTest.nextStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioman_hometask" />
       <extension name="coverage">
@@ -73,22 +90,6 @@
       <option name="PACKAGE_NAME" value="ru.netology" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.RadioTest" />
       <option name="METHOD_NAME" value="nextStation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.nextStationNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Radioman_hometask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.RadioTest" />
-      <option name="METHOD_NAME" value="nextStationNegative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest.increaseVolume" />
         <item itemvalue="JUnit.RadioTest.previousStation" />
         <item itemvalue="JUnit.RadioTest.previousStationNull" />
         <item itemvalue="JUnit.RadioTest.previousStationNegative" />
         <item itemvalue="JUnit.RadioTest.nextStation" />
-        <item itemvalue="JUnit.RadioTest.nextStationNegative" />
       </list>
     </recent_temporary>
   </component>

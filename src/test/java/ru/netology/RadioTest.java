@@ -148,5 +148,19 @@ public class RadioTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void previousStationUnderTen() {
+        Radio service = new Radio();
+
+        service.setCurrentStation(10);
+
+        service.previousStation();
+
+        int actual = service.getCurrentStation();
+        int expected = 9;
+
+        assertEquals(expected, actual);
+    }
+
 
 }

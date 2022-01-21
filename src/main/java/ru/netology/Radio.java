@@ -3,6 +3,15 @@ package ru.netology;
 public class Radio {
 
     private int currentVolume;
+    private int currentStation;
+    public int stations;
+
+    public Radio(int stations) {
+        this.stations = stations;
+    }
+
+    public Radio() {
+    }
 
     public int getCurrentVolume() {
         return currentVolume;
@@ -19,11 +28,11 @@ public class Radio {
         }
 
 
-        if (currentVolume > 10) {
-            setCurrentVolume (10);
+        if (currentVolume > 100) {
+            setCurrentVolume(100);
         }
 
-        if (currentVolume < 10) {
+        if (currentVolume < 100) {
             currentVolume = currentVolume + 1;
 
         }
@@ -35,8 +44,8 @@ public class Radio {
             setCurrentVolume(0);
 
         }
-        if (currentVolume > 10) {
-            setCurrentVolume(10);
+        if (currentVolume > 100) {
+            setCurrentVolume(100);
             return;
         }
 
@@ -45,8 +54,6 @@ public class Radio {
             setCurrentVolume(currentVolume);
         }
     }
-
-    private int currentStation;
 
     public int getCurrentStation() {
         return currentStation;

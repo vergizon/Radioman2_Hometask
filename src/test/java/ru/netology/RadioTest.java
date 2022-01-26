@@ -171,7 +171,7 @@ public class RadioTest {
         service.previousStation();
 
         int actual = service.getCurrentStation();
-        int expected = 9;
+        int expected = 8;
 
         assertEquals(expected, actual);
     }

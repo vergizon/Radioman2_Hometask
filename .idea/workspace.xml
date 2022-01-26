@@ -63,23 +63,7 @@
       <command value="load maven changes" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.decreaseVolumeUnderTen">
-    <configuration name="RadioTest.decreaseVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Radioman_hometask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.RadioTest" />
-      <option name="METHOD_NAME" value="decreaseVolume" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RadioTest.nextStation">
     <configuration name="RadioTest.decreaseVolumeUnderTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioman_hometask" />
       <extension name="coverage">
@@ -91,22 +75,6 @@
       <option name="PACKAGE_NAME" value="ru.netology" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.RadioTest" />
       <option name="METHOD_NAME" value="decreaseVolumeUnderTen" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.increaseVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Radioman_hometask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.RadioTest" />
-      <option name="METHOD_NAME" value="increaseVolume" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.increaseVolumeUnderTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.nextStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioman_hometask" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +106,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.RadioTest" />
-      <option name="METHOD_NAME" value="increaseVolumeUnderTen" />
+      <option name="METHOD_NAME" value="nextStation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.nextStationNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Radioman_hometask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.RadioTest" />
+      <option name="METHOD_NAME" value="nextStationNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.previousStationNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Radioman_hometask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.RadioTest" />
+      <option name="METHOD_NAME" value="previousStationNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest.nextStation" />
+        <item itemvalue="JUnit.RadioTest.nextStationNegative" />
+        <item itemvalue="JUnit.RadioTest.previousStationNull" />
         <item itemvalue="JUnit.RadioTest.decreaseVolumeUnderTen" />
         <item itemvalue="JUnit.RadioTest.increaseVolumeOverHundred" />
-        <item itemvalue="JUnit.RadioTest.increaseVolume" />
-        <item itemvalue="JUnit.RadioTest.decreaseVolume" />
-        <item itemvalue="JUnit.RadioTest.increaseVolumeUnderTen" />
       </list>
     </recent_temporary>
   </component>

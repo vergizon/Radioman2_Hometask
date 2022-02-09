@@ -1,5 +1,11 @@
 package ru.netology;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+
+@AllArgsConstructor
+@Data
 public class Radio {
 
     private int currentVolume;
@@ -99,6 +105,10 @@ public class Radio {
 
 
 }
+
+
+
+
 
 
 

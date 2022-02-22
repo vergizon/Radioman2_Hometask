@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f75c5e29-aa08-4622-893e-42dbc6c2328d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YandexAfisha/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VkHometask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VkHometask/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VkHometask/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VkHometask/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YandexAfisha/src/main/java/domain/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YandexAfisha/src/main/java/manager/MovieManager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -20,14 +20,6 @@ public class Radio {
         stations = 10;
     }
 
-    public int getCurrentVolume() {
-        return currentVolume;
-    }
-
-    public void setCurrentVolume(int newCurrentVolume) {
-        this.currentVolume = newCurrentVolume;
-    }
-
     public void increaseVolume() {
         if (currentVolume < 0) {
             setCurrentVolume(0);

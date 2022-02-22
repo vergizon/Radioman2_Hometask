@@ -1,15 +1,23 @@
 package ru.netology;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+
+@AllArgsConstructor
+@Data
 public class Radio {
 
     private int currentVolume;
+    private int currentStation;
+    public int stations;
 
-    public int getCurrentVolume() {
-        return currentVolume;
+    public Radio(int stations) {
+        this.stations = stations;
     }
 
-    public void setCurrentVolume(int newCurrentVolume) {
-        this.currentVolume = newCurrentVolume;
+    public Radio() {
+        stations = 10;
     }
 
     public void increaseVolume() {
@@ -19,11 +27,11 @@ public class Radio {
         }
 
 
-        if (currentVolume > 10) {
-            setCurrentVolume (10);
+        if (currentVolume > 100) {
+            setCurrentVolume(100);
         }
 
-        if (currentVolume < 10) {
+        if (currentVolume < 100) {
             currentVolume = currentVolume + 1;
 
         }
@@ -35,8 +43,8 @@ public class Radio {
             setCurrentVolume(0);
 
         }
-        if (currentVolume > 10) {
-            setCurrentVolume(10);
+        if (currentVolume > 100) {
+            setCurrentVolume(100);
             return;
         }
 
@@ -46,17 +54,17 @@ public class Radio {
         }
     }
 
-    private int currentStation;
-
     public int getCurrentStation() {
         return currentStation;
     }
 
     public void setCurrentStation(int newCurrentStation) {
         if (newCurrentStation < 0) {
+            this.currentStation = 0;
             return;
         }
-        if (newCurrentStation > 9) {
+        if (newCurrentStation > stations - 1) {
+            this.currentStation = stations - 1;
             return;
         }
         this.currentStation = newCurrentStation;
@@ -65,7 +73,7 @@ public class Radio {
 
     public void nextStation() {
 
-        if (currentStation == 9) {
+        if (currentStation == stations - 1) {
             setCurrentStation(0);
             return;
         }
@@ -78,7 +86,7 @@ public class Radio {
 
     public void previousStation() {
         if (currentStation == 0) {
-            setCurrentStation(9);
+            setCurrentStation(stations - 1);
             return;
 
         }
@@ -89,6 +97,10 @@ public class Radio {
 
 
 }
+
+
+
+
 
 
 
